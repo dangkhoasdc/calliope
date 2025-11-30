@@ -30,4 +30,4 @@ pq.heappush(heap, item)
 
 ## Problems
 
-- [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/description/): This is the fun one since we need to figure out what *statistic* we want to access.
+- [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/description/): This is the fun one since we need to figure out what _statistic_ we want to access.

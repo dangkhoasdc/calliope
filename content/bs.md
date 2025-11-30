@@ -5,7 +5,7 @@
 ```python
 def binary_search(lower: int, upper: int, f: Callable) -> int:
     lo, hi = lower, upper
-    
+
     while lo < hi:
         mi = (lo + hi) // 2
         if f(mi):
@@ -14,7 +14,6 @@ def binary_search(lower: int, upper: int, f: Callable) -> int:
             lo = mi + 1
     return lo
 ```
-
 
 N.B.: It is [almost identical](https://github.com/python/cpython/blob/f7d1109a1227dec99c6fb08c7e64aecc7acafa02/Lib/bisect.py#L21)
 to the `bisect_right` function from the `bisect` module.
@@ -33,7 +32,6 @@ Next, we need identify the `lower` and `upper` bounds of the search space.
 - The problem asks to find minimum (or maximum) value.
 - The problems requires `log(N)` time complexity.
 - The input is sorted.
-
 
 ## Practices
 

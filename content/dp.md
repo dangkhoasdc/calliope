@@ -1,6 +1,9 @@
 # Dynamic Programming
+
 ## Recursion
+
 ### Forward Recursion
+
 I saw a common pattern where thinking forwardly is easier to reason. For example, the [House Robber](https://leetcode.com/problems/house-robber/description/) problem:
 
 ```python
@@ -41,8 +44,9 @@ def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
 ```
 
 ### Backward Recursion
+
 - Or backtracking.
-- Noticeably, we need to define the *base case*. 
+- Noticeably, we need to define the _base case_.
 
 ### Background
 
@@ -50,14 +54,14 @@ def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
 
 ### 1. Finding state variables
 
-### 2. Defining the recusion relation
+### 2. Defining the recursion relation
 
 - Simplify the basecase.
 - ALWAYS VERIFY THE BASE CASE.
 
 ### 3. Finalizing the top-down approach
 
-- Using Python, if the recusion relation is found, then it is pretty much done with top-down approach (via `cache` in `functools`).
+- Using Python, if the recursion relation is found, then it is pretty much done with top-down approach (via `cache` in `functools`).
 
 ### 4. Selecting data structures for memorization
 
@@ -68,7 +72,9 @@ def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
 ## Other optimizations
 
 ### Optimized Bottom-Up DP
+
 ### Monotonic Stacks
+
 - [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/)
 
 #### Problems
@@ -76,6 +82,7 @@ def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
 ## Patterns
 
 ## Problems
+
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)
 - [Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/)
 - [Maximal Square](./mrp.md)

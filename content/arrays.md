@@ -8,24 +8,22 @@
 
 - [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)
 
-## In-situ permuation
+## In-situ permutation
 
-Solve pretty much all problems related to array rearrangment using O(1) extra memory.
+Solve pretty much all problems related to array rearrangement using O(1) extra memory.
 
 ### Reference
 
 - Section 7.8, Sedgewick, Robert, and Philippe Flajolet. An introduction to the analysis of algorithms. Addison-Wesley Longman Publishing Co., Inc., 1996.
 - Exercise 10-13, 5.2 Internal Sorting. TAOCP Vol 3.
 
-
 ## Two Pointer Techniques
 
 ### Applications
 
-- Array Partition. 
+- Array Partition.
 - Exchange-based sorting algorithms (bubble sort, quicksort).
 - Insertion sort.
-
 
 # Problems
 
@@ -35,12 +33,11 @@ Solve pretty much all problems related to array rearrangment using O(1) extra me
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes)
 - [Image Smoother](https://leetcode.com/problems/image-smoother/)
 
-
 ## Sliding Windows
 
 ### Patterns
 
-- Problems related to counting the number of subarray sastifying some conditions.
+- Problems related to counting the number of subarray satisfying some conditions.
 
 To count number of subarray inside the range `[left, right]`, number of subarrays ending at `right`:
 

@@ -1,10 +1,9 @@
-# Bread-First Search
+# Breadth-First Search
 
 ## Identifying problems
 
 - Graph or search problems: each state is a node and all edges (connections) have uniform (or none) weights.
 - Need to consider which state need to add to the queue (the `Matrix 01` problem).
-
 
 ## Template
 
@@ -12,7 +11,7 @@
 def bfs(...):
     # handle edge case, early returns
     # most of the time it is the seed value pushed to the queue
-        
+
     # Init
     queue = Deque()
     visited = ...
@@ -35,7 +34,7 @@ def bfs(...):
         for neighbor in neighbors(item):
             add_to_queue(neighbor)
 
-    queue.append(seed) 
+    queue.append(seed)
     stop_condition = False
     while stop_condition and len(queue) > 0:
         for _ in range(len(queue)):

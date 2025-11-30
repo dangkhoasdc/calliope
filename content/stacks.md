@@ -23,7 +23,7 @@ for item in collection:
 ### Properties
 
 - The stack is sorted in the ascending order for finding the nearest smaller values.
-Hence, [Binary Search](bs.md) can be applied on the stack to quickly retrieve the value sastifying a condition.
+  Hence, [Binary Search](bs.md) can be applied on the stack to quickly retrieve the value satisfying a condition.
 
 ### Problems
 
