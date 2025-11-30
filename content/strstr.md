@@ -1,6 +1,9 @@
 # strstr
+
 ## Problem
-Retuning the index of the first occurrence of `needle` string in `haystack` string, or `-1` if there is no occurrence.
+
+Returning the index of the first occurrence of `needle` string in `haystack` string, or `-1` if there is no occurrence.
+
 ## Brute Force Approach
 
 Andrei has [a thread on Twitter](https://x.com/incomputable/status/1664347304399126528) about `strstr`, his favorite interview question.
@@ -41,6 +44,6 @@ An even smaller version uses `for-else`:
 
 ![Brute Force Benchmark](/assets/images/strstr/bf.svg)
 
-
 ## References
+
 - Charras, Christian, and Thierry Lecroq. "Handbook of exact string matching algorithms." (2004).

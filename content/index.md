@@ -6,7 +6,7 @@
 
 ## Graph Search
 
-- [Bread First Search](bfs.md)
+- [Breadth-First Search](bfs.md)
 - [Depth First Search](dfs.md)
 
 ## Data Structures

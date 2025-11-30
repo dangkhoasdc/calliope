@@ -1,5 +1,6 @@
 # Misc
-## Why Python? 
+
+## Why Python?
 
 - Less verbose than C++ & Java, concise syntax looks almost like pseudocode.
 - Support wide range of data structures, e.g., priority queues via `heap`, Deque via `deque`, graph via `defaultdict`.

@@ -2,7 +2,6 @@
 
 ## Graph diameter
 
-
 ```python
 def calc_diameter(graph):
     if len(graph) == 0: return 0
@@ -25,7 +24,7 @@ def calc_diameter(graph):
         heights[cur] += 1
         nonlocal diameter
         diameter = max(diameter, heights[cur], max1 + max2 + 1)
-    
+
     dfs(0, -1)
     return diameter-1
 ```

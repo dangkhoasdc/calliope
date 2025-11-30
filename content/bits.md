@@ -14,4 +14,5 @@
 - [From hackerearth](https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/)
 
 ## Books
+
 - :star: Gregg, John. "Ones and zeros: Understanding Boolean algebra, digital circuits, and the logic of sets." (1998).
