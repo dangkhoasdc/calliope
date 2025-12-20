@@ -34,16 +34,44 @@ It is concise, cool and use some intriguing optimization:
 
 This is my Python implementation, one can use [this problem on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) to test the correctness:
 
-::: lora.stralgs.str_str.bf_1
+```python
+def bf_1(haystack: str, needle: str) -> int:
+    i, j = 0, 0
+    ni, nj = len(haystack), len(needle)
+    while i < ni:
+        if haystack[i] == needle[j]:
+            j += 1
+            if j == nj:
+                return i + 1 - nj
+        else:
+            i -= j
+            j = 0
+        i += 1
+    return -1
+```
 
-Python does not use NULL-terminated string, so we need to get the length of each strings to determine when to stop. Plus, additional optimization via `goto` can not be replicated in Python^[To me, `goto` is just cool, imperative PLs should always have it].
+Python does not use NULL-terminated string, so we need to get the length of each strings to determine when to stop.
+Plus, additional optimization via `goto` can not be replicated in Python [^1]
 
 An even smaller version uses `for-else`:
 
-::: lora.stralgs.str_str.bf_2
+```python
+def bf_2(haystack: str, needle: str) -> int:
+    ni, nj = len(haystack), len(needle)
+    for i in range(ni - nj + 1):
+        for j in range(nj):
+            if needle[j] != haystack[i + j]:
+                break
+        else:
+            return i
+    return -1
+```
 
 ![Brute Force Benchmark](/assets/images/strstr/bf.svg)
 
 ## References
 
 - Charras, Christian, and Thierry Lecroq. "Handbook of exact string matching algorithms." (2004).
+
+
+[^1]: To me, `goto` is just cool, imperative PLs should always have it.
