@@ -59,6 +59,10 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.Citations({
+        bibliographyFile: "./bibliography.bib",
+        linkCitations: true,
+      }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",

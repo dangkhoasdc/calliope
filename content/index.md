@@ -1,4 +1,4 @@
-# Lora - Data Structures & Algorithms Notes
+# Data Structures and Algorithms: Techniques and Implementations
 
 ## Algorithms
 
