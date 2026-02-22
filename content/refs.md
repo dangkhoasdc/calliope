@@ -17,7 +17,10 @@ One of the goal of this project is to go though all the resources listed below a
 ## Level 1
 
 - Dijkstra, Edsger W., et al. [A discipline of programming](https://seriouscomputerist.atariverse.com/media/pdf/book/Discipline%20of%20Programming.pdf). Vol. 613924118. Englewood Cliffs: prentice-hall, 1976.
-- [Algorithms - Robert Sedgewick](https://algs4.cs.princeton.edu/home/)
+- [Algorithms - Robert Sedgewick](https://algs4.cs.princeton.edu/home/). There are several versions of this book. In fact, I would recommend all of them:
+    1. Algorithms in C.
+    2. Algorithms in C++. (Part 1 + Part 2)
+    3. Algorithms.
 - Hanson, David R. [C interfaces and implementations: techniques for creating reusable software](http://www.r-5.org/files/books/computers/languages/c/mod/David_R_Hanson-C_Interfaces_and_Implementations-EN.pdf). Addison-Wesley Longman Publishing Co., Inc., 1996.
 - Kleinberg, Jon, and Eva Tardos. [Algorithm design](https://dl.icdst.org/pdfs/files3/9ce98c127c79e548ebea18966f526ae9.pdf). Pearson Education India, 2006.
 - o'Rourke, Joseph. Computational geometry in C. Cambridge university press, 1998: [Website](https://www.science.smith.edu/~jorourke/books/ftp.html)
