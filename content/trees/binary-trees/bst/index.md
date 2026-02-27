@@ -35,3 +35,11 @@ bool validate(Node* root, int min=int.min, int max=int.max) {
     return validate(root->left, min, root->key) && validate(root->right, root->key, max);
 }
 ```
+
+# Basic Operations
+
+## Finding
+
+## Insertion
+
+## Deletion
