@@ -1,4 +1,16 @@
-# Linked Lists
+---
+title: "Single Linked Lists"
+---
+
+# Definition
+
+# Implementation Details
+
+# Traversal Techniques
+
+# Low-level optimization
+
+# Applications
 
 ## Problems
 
