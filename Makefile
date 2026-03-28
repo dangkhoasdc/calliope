@@ -1,3 +1,7 @@
 serve:
 	npx quartz build --serve --watch
-.PHONY: serve
+
+install:
+	npm i
+
+.PHONY: serve install
