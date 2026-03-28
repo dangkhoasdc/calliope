@@ -23,6 +23,20 @@ to the `bisect_right` function from the `bisect` module.
 [o o o o o x x x x x x x]
 ```
 
+When we want to find the maximum value sastifying the condition, the implementation is changed subtlely:
+
+```python
+def binary_search_2(lower, upper, f) -> int:
+    lo, hi = lower, upper
+    while lo < hi:
+        mi = (lo + hi + 1) // 2
+        if f(mi):
+            lo = mi
+        else:
+            hi = mi - 1
+    return lo
+```
+
 The most important aspect of binary search problem is to find the **monotonic objective** encoded in the problem.
 
 Next, we need identify the `lower` and `upper` bounds of the search space.
@@ -40,3 +54,4 @@ Next, we need identify the `lower` and `upper` bounds of the search space.
 - [H-Index](https://leetcode.com/problems/h-index-ii)
 - [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 - [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
