@@ -12,6 +12,7 @@ In addition, the optimal version of it is also easy to implement.
 
 Other practical usecases:
 - Detect if graph contains a cycle.
+- Minimum spanning trees, especially Kruskal's algorithm.
 
 # Mechanism
 
@@ -21,8 +22,18 @@ Our data structure maintains the parent (or root) of each node and several relav
 
 Everytime we conduct root finding, we also optimizes the associated tree by reducing the height/rank of it simply by assigning the parent to the root of the tree.
 
-When combining two groups, we attach the shorter tree to the larger one so that there is no change in their rank. To break tie, we arbitrarily assign one parent to other, increasing the rank of that other one by 1.
+When combining two groups, we attach the shorter tree to the larger one so that there is no change in their rank.
+To break tie, we arbitrarily assign one parent to other, increasing the rank of that other one by 1.
 
+## Other variants
+
+In many other usecases, one can modify the weight to other statistics that are more relevant to the problem (e.g., [this puzzle](https://leetcode.com/problems/evaluate-division/))
+When the number of distinct item is unknown, one can use map/dictionary to maintain the parent.
+
+Interestingly, in most cases, the updating to the root node (i.e., the group index), or other optimization is conducted in the `find` operation instead of the `union` operation.
+
+If the vertex has it own weight, to use this data structure, one can create a virtual vertex and attach the vertex weight to the edge between the virtual vertex and the original vertex.
+This technique is useful with problems related to minimum spanning trees.
 
 Usefule materials:
 - [Wiki](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
