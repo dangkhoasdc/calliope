@@ -1,5 +1,12 @@
 # Depth-First Search
 
+## Strategies
+Or how to properly implement DFS:
+
+1. Avoid revisiting nodes by marking them. Sets are usually a good choice for this; otherwise if node identifier is an integer, a boolean array can be used.
+2. Returning value of the recursive call.
+3. Most of the time, we need to maintain some global state to keep track of the result.
+
 ## Graph diameter
 
 ```python
