@@ -1,6 +1,7 @@
-# Depth-First Search
-
-## Strategies
+---
+title: Depth-First Search
+---
+# Strategies
 Or how to properly implement DFS:
 
 1. Avoid revisiting nodes by marking them. Sets are usually a good choice for this; otherwise if node identifier is an integer, a boolean array can be used.
@@ -36,8 +37,12 @@ def calc_diameter(graph):
     return diameter-1
 ```
 
-## Problems
+# Problems
 
 - [Clone Graph](https://leetcode.com/problems/clone-graph/description/)
 
-## Template
+# Template
+
+# Related Algorithms
+
+- [Eulerian Path](graphs/euler_path.md)
