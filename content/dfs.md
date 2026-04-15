@@ -46,3 +46,4 @@ def calc_diameter(graph):
 # Related Algorithms
 
 - [Eulerian Path](graphs/euler_path.md)
+- [Cycle Detection](graphs/cycle.md)
