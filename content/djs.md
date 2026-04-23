@@ -12,13 +12,21 @@ In addition, the optimal version of it is also easy to implement.
 
 Other practical usecases:
 - Detect if graph contains a cycle.
-- Minimum spanning trees, especially Kruskal's algorithm.
+- Kruskal's algorithm for [[graphs/mst.md]]
 
 # Mechanism
 
+## Interface
+
+```d
+// find the root of the current node
+int find(int cur);
+```
+
 ## Optimal Disjoint Sets
 
-Our data structure maintains the parent (or root) of each node and several relavant info such as how many equivalent groups it is holding at the moment. In addition, we also keep track of the heights (or rank) of each tree representation of the equivalent group.
+Our data structure maintains the parent (or root) of each node and several relavant info such as how many equivalent groups it is holding at the moment.
+In addition, we also keep track of the heights (or rank) of each tree representation of the equivalent group.
 
 Everytime we conduct root finding, we also optimizes the associated tree by reducing the height/rank of it simply by assigning the parent to the root of the tree.
 
