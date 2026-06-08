@@ -1,5 +1,5 @@
 ---
-title: Traversal in Binary Trees
+title: "Traversal in Binary Trees"
 ---
 
 # Finding successor of node in inorder traversal

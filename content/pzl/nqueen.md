@@ -1,3 +1,4 @@
 ---
-title: N-queens
+title: "N-queens"
 ---
+

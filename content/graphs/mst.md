@@ -1,5 +1,5 @@
 ---
-title: Minimum Spanning Trees
+title: "Minimum Spanning Trees"
 ---
 
 # Krusal's Algorithm

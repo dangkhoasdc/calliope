@@ -1,5 +1,5 @@
 ---
-title: Depth-First Search
+title: "Depth-First Search"
 ---
 # Strategies
 Or how to properly implement DFS:

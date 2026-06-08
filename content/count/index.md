@@ -1,5 +1,5 @@
 ---
-title: Counting
+title: "Counting"
 ---
 
 # Notes

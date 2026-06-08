@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: "Resources"
 ---
 
 My passion for algorithms and data structures has led me to explore a wide range of resources, including books, courses, and videos.

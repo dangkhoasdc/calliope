@@ -1,5 +1,5 @@
 ---
-title: Largest Rectangle in Histograms
+title: "Largest Rectangle in Histograms"
 ---
 
 # Divide and Conquer

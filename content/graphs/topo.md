@@ -1,5 +1,5 @@
 ---
-title: Topological Sort
+title: "Topological Sort"
 date: 2026-05-12
 ---
 

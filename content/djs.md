@@ -1,5 +1,5 @@
 ---
-title: Disjoint Sets
+title: "Disjoint Sets"
 ---
 
 # Overview

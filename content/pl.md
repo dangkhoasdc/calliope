@@ -1,5 +1,5 @@
 ---
-title: Programming Languages
+title: "Programming Languages"
 ---
 
 1. [dlang](https://dlang.org): The main language I use for this project due to its versatile.

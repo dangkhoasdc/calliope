@@ -1,5 +1,5 @@
 ---
-title: Cycle Detection
+title: "Cycle Detection"
 ---
 
 # DFS

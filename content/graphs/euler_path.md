@@ -1,5 +1,5 @@
 ---
-title: Eulerian Path
+title: "Eulerian Path"
 ---
 
 # Definition

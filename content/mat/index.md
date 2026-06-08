@@ -1,5 +1,5 @@
 ---
-title: Matrix
+title: "Matrix"
 ---
 
 Matrix (To be precise, 2D-matrix) is a simple data structure but having vast applications in many areas such as
