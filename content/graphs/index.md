@@ -12,3 +12,8 @@ Trees are undirected graphs that are connected and acyclic.
 
 - Adjacency lists are the suitable data structure for most applications.
 - Topological sorting is typically the first step to any algorithm on a DAG.
+
+# Notes
+
+- [Single Source Shortest Path](sssp.md)
+- [Topological Sort](topo.md)
